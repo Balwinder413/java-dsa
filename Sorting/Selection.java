@@ -1,26 +1,31 @@
-public class selection {
-    public static void printArray(int arr[]){
-        for (int i=0; i< arr.length;i++){
-            System.out.print(arr[i]);
-        }
-        System.out.println();
-    }
-    
+import java.util.*;
+public class Selection{
     public static void main(String[] args) {
-        int arr[]={98,67,56,78,34};
+        int[] arr={6,9,0,6,2,3};
+        Selection(arr);
+        System.out.println(Arrays.toString(arr));
 
-        // selection sort
-        for(int i=0; i<arr.length-1; i++){
-            int smallest=i;
-            for(int j=i+1; j<arr.length;j++){
-                if(arr[smallest]> arr[j]){
-                    smallest=j;
-                }
-            }
-            int temp=arr[smallest];
-            arr[smallest]=arr[i];
-            arr[i]=temp;
+    }
+    static void Selection(int[]arr){
+        for(int i=0; i<arr.length;i++){
+            int last=arr.length-i-1;
+            int MaxIndex=getMaxIndex(arr, 0, last);
+            swap(arr, MaxIndex, last);
         }
-        printArray(arr);
+    }
+    static void swap(int[]arr,int first,int second){
+        int temp=arr[first];
+        arr[first]=arr[second];
+        arr[second]=temp;
+
+    }
+    static int  getMaxIndex(int[]arr,int start,int end){
+        int max= start;
+        for(int i=0;i<=end;i++){
+            if(arr[max]<arr[i]){
+                max=i;
+            }
+        }
+        return max;
     }
 }
