@@ -20,7 +20,7 @@ public class Array2D{
             }
         }
 
-        /*****output */
+        /*****output *****/
       for(int[]a: arr){
         System.out.println(Arrays.toString(a));
 }
