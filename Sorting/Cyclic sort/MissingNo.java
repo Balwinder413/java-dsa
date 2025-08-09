@@ -15,7 +15,7 @@ public class MissingNo{
             i++;
           }
         }
-        // search missing number
+        // search missing number//
         for(int index=0; index<arr.length; index++){
             if(arr[index]!= index){
                 return index;
