@@ -1,7 +1,7 @@
 import java.util.*;
 public class Ceiling{
     public static void main(String[] args) {
-        int[] arr={2,3,4,5,8,9,10,11};
+        int[] arr={2,3,4,5,8,9,10,12};
         int target=7;
         int ans=BinarySearch(arr,target);
             System.out.println(ans);
