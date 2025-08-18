@@ -1,6 +1,5 @@
 public class Pattern1{
     public static void main(String[] args){
-
         print(4);
         
     }
@@ -11,7 +10,5 @@ public class Pattern1{
             }
             System.out.println();
         }
-
     }
-    
 }
