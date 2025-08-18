@@ -10,7 +10,6 @@ public class LL{
          }
     }
 
-
         // add
         public void addFirst(String data) {
         Node newNode = new Node(data);
