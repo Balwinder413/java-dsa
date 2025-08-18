@@ -7,7 +7,7 @@ public class EvenDigit{
     }
     static int findNumber(int[] nums){
         int i=0;
-     for(int num:nums){
+        for(int num:nums){
         if(even(num)){
             i++;
         }
