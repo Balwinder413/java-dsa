@@ -7,7 +7,7 @@ public class Array2D{
     //     int [][] arr2D={
     //         {1,2,3}  0th inex
     //         {4,5,6}  1st index
-    //         {7,8,9}    2nd index
+    //         {7,8,90}    2nd index
     //     };
           Scanner sc= new Scanner(System.in);
 
