@@ -1,7 +1,7 @@
 import java.util.*;
 public class InfiniteArray{
     public static void main(String[] args) {
-        int[]arr={2,3,4,5,6,8,9,10,34,56,78,89};
+        int[]arr={2,3,4,5,6,8,9,10,34,56,78,90};
         int target=34;
         
         System.out.println(search(arr,target));

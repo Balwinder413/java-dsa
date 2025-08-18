@@ -1,6 +1,6 @@
 class Pattern3{
     public static void main(String[] args) {
-        print(5);
+        print(4);
     }
     static void print(int n){
         for(int row=1; row<=n; row++){
