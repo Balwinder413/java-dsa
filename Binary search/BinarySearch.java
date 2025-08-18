@@ -1,5 +1,4 @@
-import java.util.*;
-public class Main{
+public class BinarySearch {
     public static void main(String[] args) {
         int[] arr={2,3,4,5,6,7,8,9,10,11};
         int target=9;
