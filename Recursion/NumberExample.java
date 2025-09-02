@@ -9,7 +9,7 @@ public class NumberExample{
             return;
         }
         System.out.println(n);
-        // recursive call
-                print(n+1);
+        print(n+1);
+
     }
 }
