@@ -24,7 +24,7 @@ public class OrderAgnosticsBS{
         }
         if (isAsc)
             if(target< arr[mid]){
-        end= mid=1;
+        end= mid-1;
         } else{
         start= mid+1;
     } else{
